@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Optional styling to visualize the layout */
+body, main, article, aside {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+header, footer {
+  border: 1px solid black;
+  padding: 10px;
+}
