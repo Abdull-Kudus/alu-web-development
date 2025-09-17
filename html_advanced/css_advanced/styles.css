@@ -6,7 +6,7 @@ header {
   display: flex;
   flex-direction: row;
   flex: auto;
-  background-image: url("./imgs/banner.png");
+  background-image: url("./image/banner.png");
   padding: 2% 5% 2% 5%;
   filter: grayscale(100%);
   position: absolute;
